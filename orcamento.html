@@ -8,8 +8,11 @@
   <title>Orçamento | Bikcraft</title>
   <meta name="description" content="Orçamento.">
 
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./assets/css/style.css" as="style">
   <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body id="orcamento">
@@ -38,7 +41,7 @@
     </div>
 
     <form class="orcamento container" action="./orcamento.html">
-      <div class="orcamento-produto">
+      <div class="orcamento-produto fadeInLeft" data-anime="200">
         <h2 class="font-1-xs cor-5">Bikcraft ou Seguro?</h2>
 
         <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
@@ -81,7 +84,7 @@
               <li><img src="./assets/img/icones/eletrica.svg" width="16" height="16" alt=""> Motor Elétrico</li>
               <li><img src="./assets/img/icones/carbono.svg" width="16" height="16" alt=""> Fibra de Carbono</li>
               <li><img src="./assets/img/icones/velocidade.svg" width="16" height="16" alt=""> 40 km/h</li>
-              <li><img src="./assets/img/icones/rastreador.svg" width="16" height="16"  alt=""> Rastreador</li>
+              <li><img src="./assets/img/icones/rastreador.svg" width="16" height="16" alt=""> Rastreador</li>
             </ul>
             <img src="./assets/img/bicicletas/nebula.jpg" width="1120" height="680" alt="Bicicleta branca">
           </div>
@@ -98,7 +101,7 @@
           <label for="ouro">Ouro <span>R$ 299</span></label>
         </div>
       </div>
-      <div class="orcamento-dados form">
+      <div class="orcamento-dados form fadeInRight" data-anime="400">
         <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
         <div>
           <label for="nome">Nome</label>
@@ -183,6 +186,8 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="../assets/js/pligins/simple-anime.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

@@ -5,13 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Contato | Bikcraft</title>
   <meta name="description" content="Contato">
+
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./assets/css/style.css" as="style">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body id="contato">
@@ -40,7 +45,7 @@
     </div>
 
     <div class="contato container">
-      <section class="contato-dados" aria-label="Endereço">
+      <section class="contato-dados fadeInLeft" data-anime="200" aria-label="Endereço">
         <h2 class="font-1-m cor-0">Loja Online</h2>
         <div class="contato-endereco font-2-s cor-4">
           <p>Rua Ali Perto, 35</p>
@@ -64,7 +69,7 @@
           </a>
         </div>
       </section>
-      <section class="contato-formulario" aria-label="Formulário">
+      <section class="contato-formulario fadeInRight" data-anime="400" aria-label="Formulário">
         <form class="form" action="./contato.html">
           <div>
             <label for="nome">Nome</label>
@@ -160,6 +165,8 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados</p>
     </div>
   </footer>
+  <script src="./assets/js/pligins/simple-anime.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

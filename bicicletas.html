@@ -5,13 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Bicicletas | Bikcraft</title>
   <meta name="description" content="Bicicletas Bikcraft - ótima qualidade com um preço justo.">
+
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./assets/css/style.css" as="style">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body id="bicicletas">
@@ -40,11 +45,11 @@
     </div>
 
     <div class="bicicletas container">
-      <div class="bicicletas-imagem">
+      <div class="bicicletas-imagem fadeInLeft" data-anime="200">
         <img src="./assets/img/bicicletas/nimbus.jpg" width="1120" height="680" alt="Bicicleta preta">
         <span class="font-2-m cor-0">R$ 4999</span>
       </div>
-      <div class="bicicletas-conteudo">
+      <div class="bicicletas-conteudo fadeInRight" data-anime="400">
         <h2 class="font-1-xl">Nimbus Stark</h2>
         <p class="font-2-s cor-8">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
         <ul class="font-1-m cor-8">
@@ -157,6 +162,8 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados</p>
     </div>
   </footer>
+  <script src="./assets/js/pligins/simple-anime.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
