@@ -60,6 +60,13 @@
   }
 }
 
+@media (max-width: 300px) {
+  .botao {
+    padding: 8px 12px;
+    font-size: 0.875rem;
+  }
+}
+
 .link {
   display: inline-block;
   color: var(--cor-p1);
